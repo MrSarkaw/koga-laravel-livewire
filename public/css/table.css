@@ -1,0 +1,43 @@
+
+      .styled-table {
+        border-collapse: collapse;
+        margin: 14px 0;
+        font-size: 0.9em;
+        min-width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .styled-table thead tr {
+        background-color: #f05454;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+    }
+    .styled-table tbody tr {
+        border-bottom: 1px solid #222831;
+    }
+
+  
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #f05454;
+    }
+
+    .styled-table tbody tr{
+        color: #222831;
+    }
+
+    .overflow-x-scroll::-webkit-scrollbar{
+        height: 7px;
+        background: #30475e;
+        border-radius: 20px;
+    }
+    .overflow-x-scroll::-webkit-scrollbar-thumb{
+        height: 5px;
+        background: #f05454;
+        border-radius: 20px;
+    }
